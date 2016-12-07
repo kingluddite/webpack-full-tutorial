@@ -1,0 +1,18 @@
+{
+  "name": "webpack-full-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && webpack src/index.js dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "webpack": "^2.1.0-beta.27"
+  }
+}
